@@ -1,0 +1,51 @@
+CloudWatch log group /aws/bedrock-agentcore/runtimes/csai_agent-HGvTCiB9EE-DEFAULT
+
+INFO:CSAI_Agent:Memory recall for CUST-123 (session t1): {'SEMANTIC': 5, 'USER_PREFERENCE': 1}
+Tool #1: order-tracker___get_order
+{"timestamp": "2026-09-24T18:11:37.967Z", "level": "INFO", "message": "Invocation completed successfully (2.804s)", "logger": "bedrock_agentcore.app", "requestId": "7d3e25a0-a620-414c-97fa-9e8b0f9d0d75", "sessionId": "t1-de1d0d55-9325-4e30-ac16-f24db2c611a7"}
+INFO:bedrock_agentcore.app:Invocation completed successfully (2.804s)
+INFO:CSAI_Agent:Memory recall for CUST-123 (session t2): {'SEMANTIC': 5, 'USER_PREFERENCE': 1}
+Tool #1: order-tracker___get_order
+Tool #2: refund-processor___initiate_refund
+Your refund for the Kindle Paperwhite (Order ORD-002) has been approved!
+- **Refund ID:** REF-TWBNMD5N
+- **Amount:** $139.99
+- **Status:** Approved
+- **Timeline:** Credit will appear in your account within 3-5 business days.
+{"timestamp": "2026-09-24T18:11:50.827Z", "level": "INFO", "message": "Invocation completed successfully (4.562s)", "logger": "bedrock_agentcore.app", "requestId": "60451db9-e567-416f-87c0-20e8435c93d4", "sessionId": "t2-d88e0af3-1816-4607-905c-7d0b97a843e6"}
+INFO:bedrock_agentcore.app:Invocation completed successfully (4.562s)
+INFO:CSAI_Agent:Memory recall for CUST-123 (session t3): {'SEMANTIC': 5, 'USER_PREFERENCE': 1}
+Tool #1: search_knowledge_base
+As a Platinum loyalty member, you get these benefits:
+- **Free same-day shipping** on eligible orders
+- **15% discount** on purchases
+- **Priority customer support**
+{"timestamp": "2026-09-24T18:12:04.054Z", "level": "INFO", "message": "Invocation completed successfully (3.445s)", "logger": "bedrock_agentcore.app", "requestId": "e4f79e23-2dfa-4249-839c-0eb707c787a6", "sessionId": "t3-8adf8153-1c25-4e18-a498-a8613ed1375e"}
+INFO:bedrock_agentcore.app:Invocation completed successfully (3.445s)
+INFO:CSAI_Agent:Memory recall for CUST-123 (session s-A): {'SEMANTIC': 5, 'USER_PREFERENCE': 1}
+Hello Jane! Welcome back, Gold member. Your order **ORD-001** for Wireless Headphones Pro is **SHIPPED** via UPS (tracking TRK987654321), expected to arrive **September 26, 2026**.
+{"timestamp": "2026-09-24T18:12:14.758Z", "level": "INFO", "message": "Invocation completed successfully (1.909s)", "logger": "bedrock_agentcore.app", "requestId": "035e222c-7139-42b6-9bd5-11510de519fa", "sessionId": "s-A-aff2d089-4132-4bee-bd0e-f83e5888e577"}
+INFO:bedrock_agentcore.app:Invocation completed successfully (1.909s)
+INFO:CSAI_Agent:Memory recall for CUST-123 (session s-B): {'SEMANTIC': 5, 'USER_PREFERENCE': 1}
+{"timestamp": "2026-09-24T18:13:55.144Z", "level": "INFO", "message": "Invocation completed successfully (2.078s)", "logger": "bedrock_agentcore.app", "requestId": "dd88efbf-ae06-41d0-a50d-1962c036ca19", "sessionId": "s-B-b93afe7b-1b1c-474a-af7a-93ce5c501dd9"}
+INFO:bedrock_agentcore.app:Invocation completed successfully (2.078s)
+INFO:CSAI_Agent:Memory recall for CUST-123 (session t5): {'SEMANTIC': 5, 'USER_PREFERENCE': 1}
+Tool #1: calculate_loyalty_discount
+Here's your discount breakdown for the $150 standard order:
+- **Points redeemed:** 4,000 points ($40 discount)
+- **Gold tier discount:** 10% ($11 discount)
+- **Final total:** $99.00
+- **Total savings:** $51.00
+{"timestamp": "2026-09-24T18:14:08.014Z", "level": "INFO", "message": "Invocation completed successfully (4.812s)", "logger": "bedrock_agentcore.app", "requestId": "af8a36d9-f057-4340-89e8-d2f15936283d", "sessionId": "t5-b0b30341-494a-4272-a34c-ab9606adbf00"}
+INFO:bedrock_agentcore.app:Invocation completed successfully (4.812s)
+INFO:CSAI_Agent:Memory recall for CUST-123 (session t6): {'SEMANTIC': 5, 'USER_PREFERENCE': 1}
+Tool #1: browser
+Tool #2: browser
+Tool #3: browser
+Tool #4: browser
+Tool #5: browser
+Tool #6: browser
+Tool #7: browser
+The page title of Udacity's website (https://www.udacity.com) is:
+{"timestamp": "2026-09-24T18:15:09.410Z", "level": "INFO", "message": "Invocation completed successfully (53.695s)", "logger": "bedrock_agentcore.app", "requestId": "c709f311-1c80-43aa-b15b-6b9c6611573e", "sessionId": "t6-c560b30a-b613-480d-a11f-4b6a8f821541"}
+INFO:bedrock_agentcore.app:Invocation completed successfully (53.695s)

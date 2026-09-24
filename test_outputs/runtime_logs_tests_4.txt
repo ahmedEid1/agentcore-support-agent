@@ -1,0 +1,8 @@
+CloudWatch log group /aws/bedrock-agentcore/runtimes/csai_agent-HGvTCiB9EE-DEFAULT
+
+INFO:CSAI_Agent:Memory recall for CUST-123 (session s-A): {'SEMANTIC': 5, 'USER_PREFERENCE': 1}
+{"timestamp": "2026-09-24T18:16:33.745Z", "level": "INFO", "message": "Invocation completed successfully (1.919s)", "logger": "bedrock_agentcore.app", "requestId": "548cecfb-3a90-4cea-ae26-69631f7d0ff0", "sessionId": "s-A-0b5ee912-c1e8-4ca9-a5f7-e9bca2183f13"}
+INFO:bedrock_agentcore.app:Invocation completed successfully (1.919s)
+INFO:CSAI_Agent:Memory recall for CUST-123 (session s-B): {'SEMANTIC': 2, 'USER_PREFERENCE': 1}
+{"timestamp": "2026-09-24T18:18:16.329Z", "level": "INFO", "message": "Invocation completed successfully (2.305s)", "logger": "bedrock_agentcore.app", "requestId": "41f8f525-67f4-4cd0-a17a-09d1f0274aaf", "sessionId": "s-B-4e9ba29b-f6de-4f4b-918d-32a0d2b8704a"}
+INFO:bedrock_agentcore.app:Invocation completed successfully (2.305s)

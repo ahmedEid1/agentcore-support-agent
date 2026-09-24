@@ -1,0 +1,21 @@
+Test 3: rag platinum
+
+$ agentcore invoke '{"prompt": "What are the benefits of the Platinum loyalty tier?", "customer_id": "CUST-123", "session_id": "t3"}' --session-id t3-8adf8153-1c25-4e18-a498-a8613ed1375e
+┌──────────────────────────────────────────────────────────────────────── csai_agent ─────────────────────────────────────────────────────────────────────────┐
+│ Session: t3-8adf8153-1c25-4e18-a498-a8613ed1375e                                                                                                            │
+│ Request ID: 8e4b36cf-a4de-4988-84fa-3032859020c3                                                                                                            │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:123456789012:runtime/csai_agent-HGvTCiB9EE                                                                         │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/csai_agent-HGvTCiB9EE-DEFAULT --log-stream-name-prefix "2026/09/24/[runtime-logs" --follow              │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/csai_agent-HGvTCiB9EE-DEFAULT --log-stream-name-prefix "2026/09/24/[runtime-logs" --since 1h            │
+│ GenAI Dashboard: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/agent-core                                            │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Response:
+As a Platinum loyalty member, you get these benefits:
+
+- **Free same-day shipping** on eligible orders  
+- **15% discount** on purchases  
+- **Priority customer support**  
+
+You currently have Gold status (4,250 points). To reach Platinum, you'll need at least 5,000 points.
+(exit code 0)

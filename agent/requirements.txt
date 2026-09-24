@@ -1,0 +1,11 @@
+# Runtime dependencies of the deployed agent (agentcore configure --requirements-file requirements.txt).
+# Same versions as the local uv environment. The starter toolkit is a development CLI, so it's left out;
+# resolving pyproject.toml on Windows also pinned the Windows-only pywin32, which the Linux runtime can't install.
+bedrock-agentcore==1.23.1
+strands-agents==1.57.0
+strands-agents-tools==0.8.9
+mcp==2.1.1
+boto3==1.43.101
+playwright==1.63.0
+nest-asyncio==1.6.0
+urllib3==2.8.0

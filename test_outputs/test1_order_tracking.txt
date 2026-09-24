@@ -1,0 +1,16 @@
+Test 1: order tracking
+
+$ agentcore invoke '{"prompt": "Can you track order ORD-001?", "customer_id": "CUST-123", "session_id": "t1"}' --session-id t1-de1d0d55-9325-4e30-ac16-f24db2c611a7
+┌──────────────────────────────────────────────────────────────────────── csai_agent ─────────────────────────────────────────────────────────────────────────┐
+│ Session: t1-de1d0d55-9325-4e30-ac16-f24db2c611a7                                                                                                            │
+│ Request ID: 602528f1-1c2a-4def-ad30-07465f090250                                                                                                            │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:123456789012:runtime/csai_agent-HGvTCiB9EE                                                                         │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/csai_agent-HGvTCiB9EE-DEFAULT --log-stream-name-prefix "2026/09/24/[runtime-logs" --follow              │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/csai_agent-HGvTCiB9EE-DEFAULT --log-stream-name-prefix "2026/09/24/[runtime-logs" --since 1h            │
+│ GenAI Dashboard: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/agent-core                                            │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Response:
+Your order ORD-001 for the **Wireless Headphones Pro** is **SHIPPED** via **UPS** with tracking number **TRK987654321**. It’s estimated to arrive on 
+**September 26, 2026**.
+(exit code 0)

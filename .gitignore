@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# AgentCore starter toolkit: local config and build cache (account-specific)
+.bedrock_agentcore/
+.bedrock_agentcore.yaml
+
+# Resource IDs of your deployment, written by infra_setup/build_backend.py
+infra_setup/state.json
+
+# Local secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

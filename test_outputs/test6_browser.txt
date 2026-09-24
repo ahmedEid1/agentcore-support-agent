@@ -1,0 +1,17 @@
+Test 6: browser
+
+$ agentcore invoke '{"prompt": "Go to https://www.udacity.com and tell me the page title.", "customer_id": "CUST-123", "session_id": "t6"}' --session-id t6-c560b30a-b613-480d-a11f-4b6a8f821541
+┌──────────────────────────────────────────────────────────────────────── csai_agent ─────────────────────────────────────────────────────────────────────────┐
+│ Session: t6-c560b30a-b613-480d-a11f-4b6a8f821541                                                                                                            │
+│ Request ID: 793b7c53-b516-451e-af7e-54df4c5d0078                                                                                                            │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:123456789012:runtime/csai_agent-HGvTCiB9EE                                                                         │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/csai_agent-HGvTCiB9EE-DEFAULT --log-stream-name-prefix "2026/09/24/[runtime-logs" --follow              │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/csai_agent-HGvTCiB9EE-DEFAULT --log-stream-name-prefix "2026/09/24/[runtime-logs" --since 1h            │
+│ GenAI Dashboard: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/agent-core                                            │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Response:
+The page title of Udacity's website (https://www.udacity.com) is:
+
+**"Learn the Latest Tech Skills; Advance Your Career | Udacity"**
+(exit code 0)
