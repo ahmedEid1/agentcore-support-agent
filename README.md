@@ -11,6 +11,14 @@ A customer-support agent that tracks orders, processes refunds, answers product 
 > [Future AWS Agent Engineer Nanodegree](https://www.udacity.com/scholarships/aws-ai-ml-scholars).
 > My notes and the other projects from the program: **[aws-agent-engineer-notes](https://github.com/ahmedEid1/aws-agent-engineer-notes)**.
 
+## Origin
+
+Built for the Future AWS Agent Engineer Nanodegree on Udacity's starter code ([udacity/cd14763-project-starter](https://github.com/udacity/cd14763-project-starter)).
+
+- **From the starter, unchanged:** the two Lambda functions and the Gateway tool schema in `agent/lambda/`, `agent/product_catalog.txt` and `agent/setup_permissions.py`. The six test scenarios are the ones the starter's instructions set.
+- **From the starter, completed by me:** `agent/main.py` came with its imports and TODOs. I wrote the system prompt, the model and client setup, the memory hook, the knowledge-base and loyalty-discount tools, and the entrypoint that loads the Gateway and Browser tools.
+- **Mine:** the backend scripts in `infra_setup/`, the `offline_checks/` suite, the transcripts and logs of the live run in `test_outputs/`, and `docs/REFLECTION.md`.
+
 ## Architecture
 
 ```mermaid
@@ -113,4 +121,4 @@ uv run agentcore destroy --force && uv run python ../infra_setup/teardown_backen
 
 ## Credits and license
 
-Built on Udacity's project starter: the task description, Lambda functions, tool schema, product catalog and `setup_permissions.py`. The agent in `agent/main.py`, the `infra_setup/` automation and the offline checks are my work. Udacity's starter material is licensed under the terms in [LICENSE.txt](LICENSE.txt) (CC BY-NC-ND with Udacity's modifications).
+[Origin](#origin) lists which parts came from Udacity's starter and which are mine. Udacity's starter material is licensed under the terms in [LICENSE.txt](LICENSE.txt) (CC BY-NC-ND with Udacity's modifications).
